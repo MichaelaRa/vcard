@@ -1,18 +1,57 @@
-body{
-
+body {
+    font-family: Verdana, Geneva, sans-serif;
 }
+
 main {
-
+    margin: 20px;
+    background-color: #07a6c2a2;
 }
-section{
 
+section {
+    width: 80%;
+    position: center;
 }
+
+.topline {
+    height: 250px;
+    width: 100%;
+}
+
+.header-logo {
+    height: 250px;
+    width: 250px;
+    float: left;
+}
+
+.header-title {
+    box-sizing: border-box;
+    margin-left: 250px;
+    height: 250px;
+    text-align: left;
+    padding: 220px 0px 0px 10px;
+    font-size: 1.5em;
+    vertical-align: bottom;
+}
+
+.flex-container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
 .row {
-
+    height: 2em;
 }
-.col-left{
 
+.col-left {
+    text-align: right;
 }
-.col-right{
-    
+
+.col-right {
+    text-align: left;
 }
